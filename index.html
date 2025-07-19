@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Book Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sparkle-container">
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+        <div class="sparkle sparkle-6"></div>
+    </div>
+
+    <header class="header">
+        <h1 class="main-title">✨ Enchanted Book Reviews ✨</h1>
+        <p class="subtitle">Where stories bloom like flowers in a magical garden</p>
+    </header>
+
+    <main class="container">
+        <div class="book-card">
+            <div class="book-cover-section">
+                <div class="book-cover-placeholder">
+                    <img src="https://via.placeholder.com/200x280/E6E6FA/FF69B4?text=Book+Cover" alt="Book Cover" class="book-cover-image">
+                    <div class="flower-decoration flower-1">🌸</div>
+                    <div class="flower-decoration flower-2">🌺</div>
+                    <div class="flower-decoration flower-3">🌼</div>
+                </div>
+                
+                <div class="book-info">
+                    <h2 class="book-title" contenteditable="true">Title</h2>
+                    <p class="author-name" contenteditable="true">Author Name</p>
+                    
+                    <div class="rating-container">
+                        <div class="stars">
+                            <span class="star" data-rating="1">☆</span>
+                            <span class="star" data-rating="2">☆</span>
+                            <span class="star" data-rating="3">☆</span>
+                            <span class="star" data-rating="4">☆</span>
+                            <span class="star" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-sections">
+                <section class="synopsis-section">
+                    <h3 class="section-title">
+                        <span class="fairy-icon">🧚‍♀️</span>
+                        SYNOPSIS
+                        <span class="fairy-icon">🧚‍♀️</span>
+                    </h3>
+                    <div class="text-area">
+                        <p class="paragraph-text">
+                            In a world where magic flows through every petal and leaf, young Elara discovers she has the rare gift of speaking to garden spirits. When the ancient Moonflower—the source of all garden magic—begins to wither, she must embark on a perilous journey through enchanted forests and mystical meadows. Along the way, she befriends talking butterflies, wise old oak trees, and mischievous flower fairies who guide her toward a destiny she never imagined. But dark forces threaten to destroy the delicate balance between the human world and the realm of nature spirits.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="review-section">
+                    <h3 class="section-title">
+                        <span class="garden-icon">🌻</span>
+                        MY REVIEW
+                        <span class="garden-icon">🌻</span>
+                    </h3>
+                    <div class="text-area">
+                        <p class="paragraph-text">
+                            This enchanting tale perfectly captures the whimsical essence of garden fairy magic! The author's vivid descriptions make you feel like you're walking through a real enchanted garden, with every flower and butterfly coming to life on the page. Elara is a wonderfully relatable protagonist whose journey of self-discovery resonates deeply. The world-building is absolutely magical, filled with delightful creatures and breathtaking landscapes. While the pacing occasionally slows in the middle chapters, the emotional payoff is incredibly satisfying. This book is a perfect escape into a world of wonder and magic that will leave you believing in the magic of nature.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="save-button-container">
+            <button class="save-button" onclick="saveReview()">
+                <span class="button-icon">🌸</span>
+                Save My Magical Review
+                <span class="button-icon">🌸</span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Made with ✨ magic ✨ and 💖 love 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
